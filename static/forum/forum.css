@@ -1,0 +1,90 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 40px;
+    font-weight: 100;
+    float: left;
+}
+
+button {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    width: 18%;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    position: absolute;
+    left: 1000px;
+ 
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    
+}
+
+
+.top-layer-img{
+position: absolute;
+width: 104px;
+height: 104px;
+left: 12px;
+top: 8px;
+}
+
+.top-layer-title-1{
+position: absolute;
+width: 345px;
+height: 68px;
+left: 80px;
+top: -50px;
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+height: 60px;
+}
+
+.top-layer-title-2{
+  position: absolute;
+width: 112px;
+height: 68px;
+left: 280px;
+top: -50px;
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+height: 30px;
+}
+
+.top-layer-title-3{
+position: absolute;
+width: 112px;
+height: 68px;
+left: 380px;
+top: -50px;
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+height: 60px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  float: left;

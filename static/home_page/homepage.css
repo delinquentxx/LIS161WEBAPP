@@ -1,0 +1,263 @@
+body {
+  color: black ;
+  background-color: #F0F2F5;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+.top-layer-img{
+position: absolute;
+width: 104px;
+height: 104px;
+left: 12px;
+top: 8px;
+}
+
+.top-layer-title-1{
+position: absolute;
+width: 345px;
+height: 68px;
+left: 126px;
+top: 8px;
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+height: 60px;
+}
+
+.top-layer-title-2{
+  position: absolute;
+width: 112px;
+height: 68px;
+left: 330px;
+top: 8px;
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+height: 30px;
+}
+
+.top-layer-title-3{
+position: absolute;
+width: 112px;
+height: 68px;
+left: 435px;
+top: 8px;
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+height: 60px;
+}
+
+.option-button{
+position: absolute;
+width: 201px;
+height: 47px;
+left: 1206px;
+top: 41px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22.5px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+.mid-layer-partership-tracker{
+position: absolute;
+width: 244px;
+height: 39px;
+left: 140px;
+top: 384px;
+}
+
+.mid-layer-calendar-of-events{
+position: absolute;
+width: 130px;
+height: 39px;
+left: 414px;
+top: 389px;
+}
+
+.mid-layer-gallery{
+position: absolute;
+width: 107px;
+height: 39px;
+left: 676px;
+top: 384px;
+}
+
+.mid-layer-forum{
+position: absolute;
+width: 83px;
+height: 39px;
+left: 939px;
+top: 384px;
+}
+
+.mid-layer-minutes-of-the-meeting{
+position: absolute;
+width: 106px;
+height: 39px;
+left: 1179px;
+top: 389px;
+}
+
+.mid-layer-forum-icon{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 881px;
+top: 162px;
+}
+
+.mid-layer-gallery-icon{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 630px;
+top: 162px;
+}
+
+.mid-layer-calendar-icon{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 379px;
+top: 162px;
+}
+
+.mid-layer-minutes-of-the-meeting-icon{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 1132px;
+top: 162px;
+}
+
+.mid-layer-partership-tracker-icon{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 128px;
+top: 162px;
+}
+
+h3 {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 90px;
+align-items: center;
+display: block;
+text-align: center;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+position: absolute;
+width: 953px;
+height: 80px;
+left: 253px;
+top: 512px;
+
+background: #C4C4C4;
+border-radius: 45px 45px 0px 0px;
+}
+
+
+div {
+position: absolute;
+width: 953px;
+height: 350px;
+left: 253px;
+top: 600px;
+
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 0px 0px 45px 45px;
+}
+
+.table-inaf-advisory{
+  position: absolute;
+  width: 233px;
+  height: 38px;
+  left: 30px;
+  top: 10px;
+}
+
+.date-inaf-advisory{
+  position: absolute;
+  width: 233px;
+  height: 38px;
+  left: 40px;
+  top: 45px;
+}
+
+.table-exaf-advisory{
+  position: absolute;
+  width: 233px;
+  height: 38px;
+  left: 30px;
+  top: 90px;
+}
+
+.date-exaf-advisory{
+  position: absolute;
+  width: 233px;
+  height: 38px;
+  left: 40px;
+  top: 125px;
+}
+
+.table-trepod-advisory{
+  position: absolute;
+  width: 233px;
+  height: 38px;
+  left: 30px;
+  top: 170px;
+}
+
+.date-trepod-advisory{
+  position: absolute;
+  width: 233px;
+  height: 38px;
+  left: 40px;
+  top: 205px;
+}
+
+.table-other-topics{
+  position: absolute;
+  width: 233px;
+  height: 38px;
+  left: 30px;
+  top: 250px;
+}
+
+.hehe{
+position: absolute;
+width: 244px;
+height: 39px;
+left: 700px;
+top: 1000px;
+}
