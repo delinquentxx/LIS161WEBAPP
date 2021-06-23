@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='reg_page/reg-page.css') }}">
+    <meta charset="utf-8">
+    <title>Registration Page</title>
+  </head>
+<body>
+    <img src="{{ url_for('static', filename='login_page/FLIPP_LOGO.png') }}" alt="UPFLIPP-LOGO" style="width:100px;height:100px;float:left;">
+    <br>
+    <h1>Welcome User!</h1>
+    <br>
+    <form>
+        <h2>Basic Contact Information:</h2>
+        <label for="fname">Full Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="nname">Nickname:</label><br>
+        <input type="text" id="nname" name="nname"><br>
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="snumber">Student No.:</label><br>
+        <input type="text" id="snumber" name="snumber"><br>
+        <h2>Other Basic Information:</h2>
+        <label for="communication">Preferred Method of Communication:</label><br>
+        <p></p>
+        <input type="checkbox" id="comm1" name="comm1">
+        <label for="comm1">Messenger</label>
+        <input type="checkbox" id="comm2" name="comm2">
+        <label for="comm2">Email</label>
+        <input type="checkbox" id="comm3" name="comm3">
+        <label for="comm3">Mobile Phone / Landline</label>
+        <input type="checkbox" id="comm4" name="comm4">
+        <label for="comm4">Other</label> <br>
+        <p></p>
+        <label for="fblink">Facebook Link:</label><br>
+        <input type="text" id="fblink" name="fblink"><br>
+        <label for="contactno">Contact No:</label><br>
+        <input type=text id="contactno" name="contactno"><br>
+        <label for="oemail">Other Email (not UP Mail):</label><br>
+        <input type="text" id="oemail" name="oemail"><br>
+        <h2>Emergency Contact:</h2>
+        <label for="ecname">Name:</label><br>
+        <input type="text" id="ecname" name="ecname"><br>
+        <label for="ecrls">Relationship:</label><br>
+        <input type="text" id="ecrls" name="ecrls"><br>
+        <label for="eccontactno">Contact No:</label><br>
+        <input type="text" id="eccontactno" name="eccontactno"><br>
+        <p></p>
+        <button type="button">Next Page</button>
+        
+    </form>
+</body>

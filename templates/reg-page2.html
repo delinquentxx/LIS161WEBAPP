@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='reg_page/reg-page.css') }}">
+    <meta charset="utf-8">
+    <title>Registration Page</title>
+  </head>
+<body>
+    <img src="{{ url_for('static', filename='login_page/FLIPP_LOGO.png') }}" alt="UPFLIPP-LOGO" style="width:100px;height:100px;float:left;">
+    <br>
+    <h1>Welcome User!</h1>
+    <br>
+    <form>
+        <h2>Membership Details:</h2>
+        <label for="schedule">Attach schedule for current semester:</label><br>
+        <p></p>
+        <input type="file" id="schedule" name="schedule">
+        <p></p>
+        <label for="available">How available are you for UP FLIPP this semester?</label>
+        <p></p>
+        <input type="radio" id="Active" name="mem">
+        <label for="Active">Active</label>
+        <p></p>
+        <input type="radio" id="Active2" name="mem">
+        <label for="Active2">Active (but not very available)</label>
+        <p></p>
+        <input type="radio" id="Inactive" name="mem">
+        <label for="Inactive">Inactive</label>
+        <h2>Application Process Details:</h2>
+        <p></p>
+        <label for="buddy">Are you willing to be a buddy this sem?</label>
+        <p></p>
+        <input type="radio" id="Yes" name="buddy">
+        <label for="Yes">Yes</label>
+        <p></p>
+        <input type="radio" id="No" name="buddy">
+        <label for="No">No</label>
+        <p></p>
+        <input type="radio" id="No2" name="buddy">
+        <label for="No2">If walang choice, yes.</label>
+        <p></p>
+        <label for="alias">Alias:</label>
+        <p></p>
+        <input type="text" id="alias" name="alias">
+        <p></p>
+        <label for="trivia">Trivia about yourself:</label>
+        <p></p>
+        <input type="text" id="trivia" name="trivia">
+        <p></p>
+        <label for="zodiac">Zodiac Sign:</label>
+        <p></p>
+        <div class="row">
+            <div class="column">
+                <input type="radio" id="Aquarius" name="zodiac">
+                <label for="Aquarius">Aquarius</label>
+                <br>
+                <input type="radio" id="Aries" name="zodiac">
+                <label for="Aries">Aries</label>
+                <br>
+                <input type="radio" id="Cancer" name="zodiac">
+                <label for="Cancer">Cancer</label>
+                <br>
+                <input type="radio" id="Capricorn" name="zodiac">
+                <label for="Capricorn">Capricorn</label>
+                <br>
+                <input type="radio" id="Gemini" name="zodiac">
+                <label for="Gemini">Gemini</label>
+                <br>
+                <input type="radio" id="Leo" name="zodiac">
+                <label for="Leo">Leo</label>
+            </div>
+            <div class="column">
+                <input type="radio" id="Libra" name="zodiac">
+                <label for="Libra">Libra</label>
+                <br>
+                <input type="radio" id="Pisces" name="zodiac">
+                <label for="Pisces">Pisces</label>
+                <br>
+                <input type="radio" id="Sagittarius" name="zodiac">
+                <label for="Sagittarius">Sagittarius</label>
+                <br>
+                <input type="radio" id="Scorpio" name="zodiac">
+                <label for="Scorpio">Scorpio</label>
+                <br>
+                <input type="radio" id="Taurus" name="zodiac">
+                <label for="Taurus">Taurus</label>
+                <br>
+                <input type="radio" id="Virgo" name="zodiac">
+                <label for="Virgo">Virgo</label>
+            </div>
+        </div>
+        <p></p>
+        <h2>Evaluation:</h2>
+        <p></p>
+        <label for="concerns">Any concerns or messages to ExecComm?</label>
+        <p></p>
+        <input type="text" id="concerns" name="concerns">
+        <p></p>
+        <button type="button">Submit</button>
+    </form>
+</body>
