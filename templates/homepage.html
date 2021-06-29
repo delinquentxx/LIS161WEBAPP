@@ -1,43 +1,23 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="homepage.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='home_page/homepage.css') }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<html>
+
 <body>
 
 <div class="header">
-  <img class = "header-img" src = "FLIPP LOGO.png" alt = "FLIPP Logo">
+  <img class = "header-img" src = "{{ url_for('static', filename='Login_page/FLIPP_LOGO.png') }}" alt = "FLIPP Logo">
   <h1>Welcome User!</h1>
 <div/>
 
 <ul>
+  <li><a href="#announcements">Announcements</a></li>
   <li><a href="#calendar">Calendar</a></li>
   <li><a href="#gallery">Gallery</a></li>
   <li><a href="#forum">Forum</a></li>
   <li><a href="#minutes">Minutes of the Meeting</a></li>
   <li style="float:right"><a href="#options">Options</a></li>
 </ul>
-
-<div class="iconbar">
-  <div class="icons">
-    <div class="icons-container">
-    <a href = "#"><img src="Calendar.png" alt="Calendar" style="width:100%"></a>
-    <h4>Calendar</h4>
-    </div>
-    <div class="icons-container">
-    <a href = "#"><img src="Gallery.png" alt="Gallery" style="width:100%"></a>
-    <h4>Gallery</h4>
-    </div>
-    <div class="icons-container">
-    <a href = "#"><img src="Forum.png" alt="Forum" style="width:100%"></a>
-    <h4>Forum</h4>
-    </div>
-    <div class="icons-container">
-    <a href = "#"><img src="Minutesofthemeeting.png" alt="Minutes of the Meeting" style="width:100%"></a>
-    <h4>Minutes of the Meeting</h4>
-    </div>
-  </div>
-</div>
 
 <div class="announcements">
   <table>
