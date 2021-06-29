@@ -1,44 +1,66 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="{{ url_for('static', filename='home_page/homepage.css') }}">
-<head>
-  <title>Home</title>
-</head>
+<link rel="stylesheet" href="homepage.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<main>
-  <body>
-  <img class = "top-layer-img" src="{{ url_for('static', filename='login_page/FLIPP_LOGO.png') }}" alt = "FLIPP Logo">
-  <h1 class = "top-layer-title-1">Welcome</h1>
-  <h1 class = "top-layer-title-2">User</h1>
-  <h1 class = "top-layer-title-3">!</h1>
+<html>
+<body>
 
-  <button type = "button" class = "option-button">OPTIONS</button>
+<div class="header">
+  <img class = "header-img" src = "FLIPP LOGO.png" alt = "FLIPP Logo">
+  <h1>Welcome User!</h1>
+<div/>
 
-  <a href = "#"><h2 class = "mid-layer-partership-tracker"> PARTNERSHIP <br> TRACKER </h2></a>
-  <a href = "#"><h2 class = "mid-layer-calendar-of-events"> CALENDAR <br> OF EVENTS </h2></a>
-  <a href = "#"><h2 class = "mid-layer-gallery"> GALLERY </h2></a>
-  <a href = "#"><h2 class = "mid-layer-forum"> FORUM </h2></a>
-  <a href = "#"><h2 class = "mid-layer-minutes-of-the-meeting"> MINUTES <br> OF THE <br> MEETING </h2></a>
+<ul>
+  <li><a href="#calendar">Calendar</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+  <li><a href="#forum">Forum</a></li>
+  <li><a href="#minutes">Minutes of the Meeting</a></li>
+  <li style="float:right"><a href="#options">Options</a></li>
+</ul>
 
-
-  <a href = "#"><img class = "mid-layer-forum-icon" src = "{{ url_for('static', filename='home_page/Forum.png') }}" alt = "Forum Icon"></a>
-  <a href = "#"><img class = "mid-layer-gallery-icon" src = "{{ url_for('static', filename='home_page/Gallery.png') }}"  alt = "Gallery Icon"></a>
-  <a href = "#"><img class = "mid-layer-calendar-icon" src = "{{ url_for('static', filename='home_page/Calendar.png') }}"  alt = "Calendar Icon"></a>
-  <a href = "#"><img class = "mid-layer-minutes-of-the-meeting-icon" src ="{{ url_for('static', filename='home_page/Minutesofthemeeting.png') }}" alt = "Minutes of the meeting Icon"></a>
-  <a href = "#"><img class = "mid-layer-partership-tracker-icon" src = "{{ url_for('static', filename='home_page/PartnershipTracker.png') }}"  alt = "Partnership Tracker Icon"></a>
-
-  <h3> LATEST ANNOUNCEMENTS </h3>
-
-  <div>
-    <a href = "#"><h2 class = "table-inaf-advisory"> INAF ADVISORY </h2></a>
-    <a href = "#"><h2 class = "table-exaf-advisory"> EXAF ADVISORY </h2></a>
-    <a href = "#"><h2 class = "table-trepod-advisory"> TREPOD ADVISORY </h2></a>
-    <a href = "#"><h2 class = "table-other-topics"> OLDER TOPICS... </h2></a>
-
-    <p class = "date-inaf-advisory"> 19 March, 10:15 </p>
-    <p class = "date-exaf-advisory"> 17 March, 10:15 </p>
-    <p class = "date-trepod-advisory"> 18 March, 10:15 </p>
+<div class="iconbar">
+  <div class="icons">
+    <div class="icons-container">
+    <a href = "#"><img src="Calendar.png" alt="Calendar" style="width:100%"></a>
+    <h4>Calendar</h4>
+    </div>
+    <div class="icons-container">
+    <a href = "#"><img src="Gallery.png" alt="Gallery" style="width:100%"></a>
+    <h4>Gallery</h4>
+    </div>
+    <div class="icons-container">
+    <a href = "#"><img src="Forum.png" alt="Forum" style="width:100%"></a>
+    <h4>Forum</h4>
+    </div>
+    <div class="icons-container">
+    <a href = "#"><img src="Minutesofthemeeting.png" alt="Minutes of the Meeting" style="width:100%"></a>
+    <h4>Minutes of the Meeting</h4>
+    </div>
   </div>
+</div>
 
-  <h4 class = "hehe">surprise hehe</h4>
+<div class="announcements">
+  <table>
+    <tr>
+      <th>LATEST ANNOUNCEMENTS</th>
+    </tr>
+    <tr>
+      <a href = "#"><td>InAf Advisory</td></a>
+    </tr>
+    <tr>
+      <a href = "#"><td>ExAf Advisory</td></a>
+    </tr>
+    <tr>
+      <a href = "#"><td>ReDoMa Advisory</td></a>
+    </tr>
+    <tr>
+      <a href = "#"><td>TrePod Advisory</td></a>
+    </tr>
+    <tr>
+      <a href = "#"><td>Older Topics/Others</td></a>
+    </tr>
+  </table>
+</div>
+
 </body>
-</main>
+</html>
