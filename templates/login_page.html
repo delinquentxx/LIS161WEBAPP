@@ -1,46 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-<link rel="stylesheet" href="{{ url_for('static', filename='login_page/login_page.css') }}">
+<link rel="stylesheet" href="loginpage.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<html>
 <body>
-<div class="wrapper">
-         <div class="logo">
-            <img src="{{ url_for('static', filename='Login_page/FLIPP_LOGO.png') }}"> <!--IDK why but when I add the alt attrib.
-            medyo nagloloko yung line? can u pls check this out-->
-        </div>
-  <br>
-  <h1 class="h1"> University of the Philippines <br>
-        Future Library and Information <br>
-        Professionals of the Philippines
-  </h1>
-  <h2 class="h2">What is UP <br>
-        FLIPP?
-  </h2>
-  <p class="P1"> UP FLIPP is an organization housed within the School of Library <br>
-        and Information Science (SLIS) of the University of the Philippines  <br>
-        Diliman which aims to promote excellence in and awareness of the <br>
-        role of librarianship in today's society through efforts such as annual  <br>
-        promotional activities.
-  </p>
-</div>
-<div class="form" position="absolute">
-    <section class="right">
-        <h3 class="h3">Welcome to UP FLIPP</h3>
-        <p class="P2">Bolder. Bigger. Braver</p> 
-        <p><br>
-        </p>
-        <input type="text" placeholder="Email Address">
-        <br>
-        <input type="text" placeholder="Password">
-        <p></p><br>
-        <a href="gmail.com" class="a1">Forget Password?</a>
-        <p></p><br>
-        <button type="button">Login</button>
-        <p></p>
-        <a href="gmail.com" class="a2">New Member?</a>
 
-    </section>
-</div>
+<div class="welcome">
+  <div class="form-box">
+    <div class="button-box">
+      <div id="btn"></div>
+      <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+      <button type="button" class="toggle-btn" onclick="register()">Register</button>
+    </div>
+    <div class="flippicon">
+      <img src="FLIPP_LOGO.png">
+    </div>
+    <form id="login" class="input-group">
+      <input type="text" class="input-field-login" placeholder="Student ID" required>
+      <input type="text" class="input-field-login" placeholder="Enter Password" required>
+      <input type="checkbox" class="chech-box"><span>Remember Password</span>
+      <button type="submit" class="submit-btn">Log In</button>
+    </form>
+    <form id="register" class="input-group">
+      <input type="text" class="input-field-register" placeholder="Student ID" required>
+      <input type="email" class="input-field-register" placeholder="Email Address" required>
+      <input type="text" class="input-field-register" placeholder="Enter Password" required>
+      <input type="checkbox" class="chech-box"><span>I agree to the terms and conditions</span>
+      <button type="submit" class="submit-btn">Register</button>
+    </form>
+  </div>
+<div/>
+
+<script>
+var x = document.getElementById("login");
+var y = document.getElementById("register");
+var z = document.getElementById("btn");
+
+function register(){
+  x.style.left = "-400px";
+  y.style.left = "50px";
+  z.style.left = "110px";
+}
+
+function login(){
+  x.style.left = "50px";
+  y.style.left = "450px";
+  z.style.left = "0px";
+}
+
+</script>
 
 </body>
 </html>
