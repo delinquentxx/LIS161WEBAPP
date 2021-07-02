@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="homepage.css">
+<link rel="stylesheet" href={{ url_for('static', filename='home_page/homepage.css') }}>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 <body>
 
 <div class="header">
-  <img class = "header-img" src = "FLIPP_LOGO.png" alt = "FLIPP Logo">
+  <img class = "header-img" src = {{ url_for('static', filename='login_page/FLIPP_LOGO.png') }} alt = "FLIPP Logo">
   <h1>Welcome User!</h1>
 <div/>
 
 <ul>
+  <li><a href="calendar">Home</a></li>
   <li><a href="#calendar">Calendar</a></li>
   <li><a href="#gallery">Gallery</a></li>
   <li><a href="#forum">Forum</a></li>

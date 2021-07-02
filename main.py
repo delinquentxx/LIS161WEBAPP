@@ -1,4 +1,5 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect, url_for
+from data import credentials
 
 app = Flask(__name__)
 
@@ -22,6 +23,10 @@ def register():
 @app.route('/register=page2')
 def register2():
     return render_template('reg-page2.html')
+
+#@app.route('/processing', method=['post'])
+#def processing():
+    #login_data = {'student number': request.form['user_sn']}
 
 if __name__ == '__main__' :
     app.run(debug=True)
