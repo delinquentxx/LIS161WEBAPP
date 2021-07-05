@@ -16,15 +16,20 @@
       <img src="{{ url_for('static', filename='login_page/FLIPP_LOGO.png') }}">
     </div>
     <form id="login" class="input-group">
-      <input type="text" class="input-field-login" placeholder="Student ID" required>
-      <input type="text" class="input-field-login" placeholder="Enter Password" required>
+      <label for="studentid">Student ID</label>
+      <input type="text" class="input-field-login" id="studentid" name="studentid" placeholder="Enter Student ID" required>
+      <label for="password">Password</label>
+      <input type="password" class="input-field-login" id="password" name="password" placeholder="Enter Password" required>
       <input type="checkbox" class="chech-box"><span>Remember Password</span>
       <button type="submit" class="submit-btn">Log In</button>
     </form>
     <form id="register" class="input-group">
-      <input type="text" class="input-field-register" placeholder="Student ID" required>
-      <input type="email" class="input-field-register" placeholder="Email Address" required>
-      <input type="text" class="input-field-register" placeholder="Enter Password" required>
+      <label for="regstudentid">Student ID</label>
+      <input type="text" class="input-field-register" id="regstudentid" name="regstudentid" placeholder="Enter Student ID" required>
+       <label for="regemail">Email Address</label>
+      <input type="email" class="input-field-register" id="regemail" name="regemail" placeholder="Enter Email Address" required>
+      <label for="regpassword">Password</label>
+      <input type="password" class="input-field-register" id="regpassword" name="regpassword" placeholder="Enter Password" required>
       <input type="checkbox" class="chech-box"><span>I agree to the terms and conditions</span>
       <button type="submit" class="submit-btn">Register</button>
     </form>

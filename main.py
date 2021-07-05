@@ -20,9 +20,6 @@ def forum():
 def register():
     return render_template('reg-page1.html')
 
-@app.route('/register=page2')
-def register2():
-    return render_template('reg-page2.html')
 
 #@app.route('/processing', method=['post'])
 #def processing():
